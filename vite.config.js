@@ -4,9 +4,6 @@ import babel from "@rolldown/plugin-babel";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    base("/ravi_portfolio"),
-    babel({ presets: [reactCompilerPreset()] }),
-  ],
+  plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
+  base: "/ravi_portfolio",
 });
