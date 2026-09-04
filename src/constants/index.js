@@ -20,6 +20,11 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  react,
+  angular,
+  ionic,
+  // spring_boot,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +43,11 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
+  { title: "React", icon: react },
+  { title: "Flutter", icon: flutter },
+  { title: "Angular", icon: angular },
   { title: "Java", icon: java },
+  // { title: "Spring Boot", icon: ionic },
 ];
 
 export const technologies = [
@@ -57,40 +63,46 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "Lead Frontend Developer",
+    company_name: "KSNALabs",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Mar 2023 - Nov 2025",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Developed and maintained responsive web applications using React, Redux, and TypeScript, with Jest and Enzyme for unit testing, Webpack for module bundling, and Axios for RESTful API integration.",
+      "Implemented performance optimization techniques, including code splitting and lazy loading, resulting in a 25% reduction in page load times.",
+      "Mentored and trained junior developers, resulting in a 50% increase in team productivity and a 20% reduction in code review time.",
+      "Led the migration of a legacy codebase to a modern React architecture, resulting in a 40% reduction in technical debt and improved maintainability.",
+      "Implemented a comprehensive testing strategy, including unit, integration, and end-to-end testing, resulting in a 30% reduction in production bugs.",
+      "Implemented accessibility best practices, resulting in a 25% increase in accessibility compliance and improved user experience for all users.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "Software Developer",
+    company_name: "Cloud Express Solutions",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "Aug 2019 - Mar 2023",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Optimized the application's performance by reducing the bundle size by 25% and improving the Lighthouse score from 80 to 95",
+      "Collaborated with cross-functional teams to define and implement new features, resulting in a 20% increase in user engagement and retention.",
+      "Set up automated CI/CD pipelines that reduced code integration time by 40%, resulting in faster software releases.",
+      "Implemented a comprehensive testing strategy that increased code coverage from 60% to 90%, resulting in a significant reduction in production bugs.",
+      "Developed and maintained a design system using Storybook, resulting in a 30% reduction in development time and improved consistency across applications.",
     ],
   },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
-    ],
-  },
+  // {
+  //   title: "Artificial Intelligence Intern",
+  //   company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
+  //   icon: edunet,
+  //   iconBg: "#161329",
+  //   date: "June 2023 - July 2023",
+  //   points: [
+  //     "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
+  //     "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
+  //     "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+  //   ],
+  // },
 ];
 
 export const projects = [
@@ -136,9 +148,7 @@ export const projects = [
     name: "PayloadMaster",
     description:
       "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
+    tags: [{ name: "shell", color: "blue-text-gradient" }],
     image: payloadmaster,
     source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
   },
@@ -165,6 +175,7 @@ export const projects = [
     ],
 
     image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link:
+      "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
   },
 ];

@@ -8,6 +8,10 @@ import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import react from "./tech-stack/react.png";
+import angular from "./tech-stack/angular.png";
+import ionic from "./tech-stack/ionic.png";
+import flutter from "./tech-stack/flutter.png";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -59,4 +63,8 @@ export {
   menu,
   close,
   eduskill,
+  react,
+  angular,
+  ionic,
+  flutter,
 };
